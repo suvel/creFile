@@ -1,6 +1,6 @@
-## creFile 
+## cre-file 
 
-__creFile is node.js CLI which generate file by referring the input text file.__
+__cre-file is node.js CLI which generate file by referring the input text file.__
 
 
 ### CREATE ONE TO GENERATE MANY🤞!
@@ -13,7 +13,7 @@ If your bored/lazy 🦥 to create tones of files, then use the CLI to automate�
 
 ### How to Install
 1. [Install node.js](https://nodejs.org/en/)
-2. > npx crefile
+2. > npx cre-file
 
 _I have test this in only windows to be precise win 10, one I have test with other platform i will update the doc_
 
@@ -25,7 +25,7 @@ _I have test this in only windows to be precise win 10, one I have test with oth
 |Filename1.js| 
 |Filename2.txt|
 ```
-4. >creFile gen <text_file_name>
+4. >cre-file gen <text_file_name>
 
 ### Example
 ```

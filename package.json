@@ -1,10 +1,14 @@
 {
-	"name": "creFile",
+	"name": "cre-file",
 	"description": "To generate file from txt file",
 	"version": "0.0.1",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suvel/creFile"
+	},
 	"bin": {
-		"creFile": "index.js"
+		"cre-file": "index.js"
 	},
 	"author": {
 		"name": "Suvel Rathneswar",
@@ -12,8 +16,10 @@
 		"url": "https://github.com/suvel"
 	},
 	"keywords": [
-		"creFile",
-		"Suvel Rathneswar"
+		"cre-file",
+		"generate file",
+		"files",
+		"create files"
 	],
 	"files": [
 		"index.js",

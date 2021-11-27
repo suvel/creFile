@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * creFile
+ * cre-file
  * To generate file from txt file
  *
  * @author Suvel Rathneswar <https://github.com/suvel>
