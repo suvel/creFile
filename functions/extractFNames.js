@@ -1,3 +1,5 @@
+const customLog = require('./customLog.js');
+
 module.exports = function (stringArr) {
 	try {
 		let fNames = [];
@@ -9,7 +11,7 @@ module.exports = function (stringArr) {
 		});
 		return fNames;
 	} catch (exc) {
-		console.log(
+		customLog.error(
 			'Error while extracting file name from the file, make sure you placing the filename inside || eg. |1.txt|'
 		);
 		return [];

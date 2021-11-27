@@ -1,4 +1,5 @@
 const log = require('./log');
+const customLog = require('../functions/customLog');
 
 module.exports = function () {
 	const args = process.argv;
@@ -10,7 +11,7 @@ module.exports = function () {
 	const ipFExist = chkFileExist(ipFName);
 
 	if (!ipFExist) {
-		console.log("File doesn't seems to exist..");
+		customLog.error("File doesn't seems to exist..");
 		return;
 	}
 
@@ -28,7 +29,7 @@ module.exports = function () {
 			//create files
 			const createFiles = require('../functions/createFiles');
 			createFiles(fileNames);
-			console.log("");
+			process.exit();
 		})
 		.catch(err => {
 			log(err);
