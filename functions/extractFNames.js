@@ -5,8 +5,11 @@ module.exports = function (stringArr) {
 		let fNames = [];
 		stringArr.forEach(function (line) {
 			if (line?.trim()) {
-				const fName = line.match(/\|(.[\w]*\.[\w]{1,})\|/)[1];
-				fNames.push(fName);
+				const regexRes = line.match(/\|(.[\w]*\.[\w]{1,})\|/);
+				if (regexRes?.length == 2) {
+					const fName = regexRes[1];
+					fNames.push(fName);
+				}
 			}
 		});
 		return fNames;
