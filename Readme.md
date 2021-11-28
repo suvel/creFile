@@ -13,7 +13,7 @@ If your bored/lazy ðŸ¦¥ to create tones of files, then use the CLI to automateðŸ
 
 ### How to Install
 1. [Install node.js](https://nodejs.org/en/)
-2. > npx cre-file
+2. > npm i -global cre-file
 
 _I have test this in only windows to be precise win 10, one I have test with other platform i will update the doc_
 
